@@ -12,8 +12,8 @@ require 'webrick'
 require 'json'
 
 # default port to 3000 or overwrite with PORT variable by running
-# $ PORT=3001 ruby server.rb
-port = ENV['PORT'] ? ENV['PORT'].to_i : 3001
+# $ PORT=5000 ruby server.rb
+port = ENV['PORT'] ? ENV['PORT'].to_i : 5000
 
 puts "Server started: http://localhost:#{port}/"
 
